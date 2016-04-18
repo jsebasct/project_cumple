@@ -25,6 +25,15 @@
       <artifactId>mecumple_jar</artifactId>
       <version>1.0</version>
     </dependency>
+    
+    <!-- adding dependency for compilation witout this does recognize jsp -->
+    <dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+		<version>3.0.1</version>
+		<scope>compile</scope>
+	</dependency>
+    
   </dependencies>
   <build>
     <finalName>CumpleWeb</finalName>
